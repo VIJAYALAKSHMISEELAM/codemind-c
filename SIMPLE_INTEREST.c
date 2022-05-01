@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 int main()
 {
@@ -8,3 +9,4 @@ int main()
     printf("%d",s);
     return 0;
 }
+
