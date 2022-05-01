@@ -1,15 +1,19 @@
+
 #include<stdio.h>
 int main()
 {
-    int rev=0,num,d;
-    scanf("%d",&num);
-    while(num)
+    int n,rev=0,temp,d;
+
+    scanf("%d",&n);
+    temp=n;
+    while(n!=0)
     {
-        d=num%10;
-        num=num/10;
+        d=n%10;
+        n=n/10;
         rev=rev*10+d;
     }
     printf("%d",rev);
     return 0;
-    
 }
+
+
