@@ -1,7 +1,8 @@
+
 #include<stdio.h>
 int main()
 {
-    int a,sum=0,i;
+    int a,i,sum=0;
     scanf("%d",&a);
     for(i=1;i<a;i++)
     {
@@ -9,6 +10,7 @@ int main()
         {
             sum=sum+i;
         }
+    
     }
     if(sum>=a)
     {
