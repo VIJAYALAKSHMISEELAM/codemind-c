@@ -1,7 +1,8 @@
+
 #include<stdio.h>
 int main()
 {
-    int n,d,temp,rev=0;
+    int n,rev=0,temp,d;
     scanf("%d",&n);
     temp=n;
     while(n!=0)
@@ -10,7 +11,6 @@ int main()
         n=n/10;
         rev=rev*10+d;
     }
-    n=temp;
     if(rev==temp)
     {
         printf("True");
