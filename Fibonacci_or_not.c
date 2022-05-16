@@ -3,7 +3,7 @@ int main()
 {
     int a,b,c,num;
     scanf("%d",&num);
-    if(num==0||num==1)
+    if(c==0||c==1)
     {
         printf("True");
     }
@@ -26,6 +26,6 @@ int main()
         {
             printf("False");
         }
+        return 0;
     }
-    return 0;
 }
