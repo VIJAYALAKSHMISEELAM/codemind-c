@@ -19,6 +19,7 @@ int main()
     if(n)
     {
         printf("Not Unique Number");
+        
     }
     else
     {
