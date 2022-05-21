@@ -9,15 +9,11 @@ int main()
         {
             if(i==j)
             {
-                printf("x");
-            }
-            else if(j==n-i-1)
-            {
-                printf("x");
+                printf("0");
             }
             else
             {
-                printf("0");
+                printf("x");
             }
         }
         printf("
