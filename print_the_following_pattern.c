@@ -5,18 +5,12 @@ int main()
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
-        for(j=0;j<n;j++)
+        for(j=n;j>0;j--)
         {
-            if(i==j)
-            {
-                printf("0");
-            }
-            else
-            {
-                printf("x");
-            }
+            printf("%d ",j);
         }
         printf("
 ");
     }
+   return 0; 
 }
