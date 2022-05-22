@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 int findgcd(int a,int b)
 {
@@ -14,7 +13,7 @@ int findgcd(int a,int b)
 int main()
 {
     int a,b,gcd;
-    scanf("%d%d",&a,&b);
+    scanf("%d %d ",&a,&b);
     gcd=findgcd(a,b);
     printf("%d",gcd);
 }
